@@ -1,0 +1,31 @@
+# Mustocan V6 Ultimate Pro Panel 🚀
+
+Este es un **Asesor Experto (EA)** de alto rendimiento para MetaTrader 5, diseñado para estrategias de seguimiento de tendencia utilizando indicadores técnicos y un panel dinámico en pantalla.
+
+## 📊 Resumen de la Estrategia
+El EA sigue una lógica inteligente de seguimiento de tendencia:
+- **Detección de Tendencia:** Utiliza una **Media Móvil Exponencial (EMA) de 200 períodos** para determinar la dirección principal de la tendencia.
+- **Confirmación de Entrada:** Integra el **Índice de Fuerza Relativa (RSI)** para encontrar puntos de entrada óptimos.
+- **Gestión de Órdenes:** Coloca **Órdenes Pendientes (Stop)** con lógica de limpieza automática.
+
+## 🛠 Características Principales
+- **Panel en Tiempo Real:** Panel en pantalla que muestra Saldo, Equidad, Ganancias/Pérdidas y fuerza del RSI.
+- **Limpieza Inteligente:** Elimina automáticamente órdenes pendientes inválidas cuando la tendencia cambia.
+- **Gestión de Riesgos:** Tamaño de lote ajustable, puntos de paso (step) y límites máximos de órdenes.
+
+## ⚙️ Instalación
+1. Descargue el archivo `MUSTOCAN_V6.mq5`.
+2. Abra MT5 y vaya a `Archivo > Abrir carpeta de datos`.
+3. Navegue a `MQL5 > Experts` y pegue el archivo.
+4. Reinicie MT5, compile el script y arrástrelo a un **gráfico M15**.
+5. Active el **Trading Algorítmico** en su terminal MT5.
+
+## ⚖️ Descargo de Responsabilidad de Inversión (Advertencia de Riesgo)
+
+**POR FAVOR LEA CON ATENCIÓN:**
+- **No es un Consejo de Inversión:** Este software y su código fuente se proporcionan únicamente con **fines educativos y de investigación**. No constituye asesoramiento financiero o de inversión.
+- **Alto Riesgo:** El comercio de Forex e instrumentos financieros implica un riesgo significativo de pérdida. El desarrollador **no se hace responsable** de ninguna pérdida financiera o daño incurrido por el uso de este script.
+- **Sin Garantías:** El rendimiento pasado no es garantía de resultados futuros. Utilice este EA bajo su propio riesgo y pruébelo siempre en una **cuenta demo** antes de usar fondos reales.
+
+---
+**Desarrollado por Mustocan Trade © 2026**
