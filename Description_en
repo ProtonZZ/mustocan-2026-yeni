@@ -1,0 +1,30 @@
+# Mustocan V6 Ultimate Pro Panel 🚀
+
+This is a high-performance **Expert Advisor (EA)** for MetaTrader 5, designed for trend-following strategies using technical indicators and a dynamic on-screen dashboard.
+
+## 📊 Strategy Overview
+The EA follows a smart trend-following logic:
+- **Trend Detection:** Uses a **200-period Exponential Moving Average (EMA)** to determine the main trend direction.
+- **Entry Confirmation:** Integrates **Relative Strength Index (RSI)** to find optimal entry points.
+- **Order Management:** Places **Pending Stop Orders** with automated cleanup logic.
+
+## 🛠 Key Features
+- **Real-Time Dashboard:** On-screen panel showing Balance, Equity, Profit/Loss, and RSI strength.
+- **Smart Cleanup:** Automatically deletes invalid pending orders when the trend shifts.
+- **Risk Management:** Adjustable Lot Size, Step Points, and Max Order limits.
+
+## ⚙️ Installation
+1. Download the `MUSTOCAN_V6.mq5` file.
+2. Open MT5 and go to `File > Open Data Folder`.
+3. Navigate to `MQL5 > Experts` and paste the file.
+4. Restart MT5, compile the script, and drag it onto an **M15 chart**.
+5. Enable **Algo Trading** in your MT5 terminal.
+
+## ⚖️ Investment Disclaimer (Risk Warning)
+
+**PLEASE READ CAREFULLY:** - **Not Investment Advice:** This software and its source code are provided for **educational and research purposes only**. It does not constitute financial or investment advice.
+- **High Risk:** Trading Forex and financial instruments involves significant risk of loss. The developer is **not responsible** for any financial losses or damages incurred through the use of this script.
+- **No Guarantees:** Past performance is not a guarantee of future results. Use this EA at your own risk and always test it on a **demo account** before using real funds.
+
+---
+**Developed by Mustocan Trade © 2026**
