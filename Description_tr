@@ -1,0 +1,31 @@
+# Mustocan V6 Ultimate Pro Panel 🚀
+
+Bu, teknik göstergeleri ve dinamik bir ekran panelini kullanan, trend takip stratejileri için tasarlanmış yüksek performanslı bir MetaTrader 5 **Uzman Danışmanıdır (EA)**.
+
+## 📊 Strateji Özeti
+EA, akıllı bir trend takip mantığı izler:
+- **Trend Tespiti:** Ana trend yönünü belirlemek için **200 periyotluk Üstel Hareketli Ortalama (EMA)** kullanır.
+- **Giriş Onayı:** Optimal giriş noktalarını bulmak için **Göreceli Güç Endeksi (RSI)** ile entegre çalışır.
+- **Emir Yönetimi:** Otomatik temizleme mantığına sahip **Bekleyen Stop Emirleri** yerleştirir.
+
+## 🛠 Temel Özellikler
+- **Gerçek Zamanlı Panel:** Bakiye, Özsermaye, Kar/Zarar ve RSI gücünü gösteren ekran paneli.
+- **Akıllı Temizleme:** Trend değiştiğinde geçersiz bekleyen emirleri otomatik olarak siler.
+- **Risk Yönetimi:** Ayarlanabilir Lot büyüklüğü, Adım Puanları ve Maksimum Emir sınırları.
+
+## ⚙️ Kurulum
+1. `MUSTOCAN_V6.mq5` dosyasını indirin.
+2. MT5'i açın ve `Dosya > Veri Klasörünü Aç` menüsüne gidin.
+3. `MQL5 > Experts` klasörüne gidin ve dosyayı yapıştırın.
+4. MT5'i yeniden başlatın, betiği derleyin ve bir **M15 grafiğine** sürükleyin.
+5. MT5 terminalinizde **Algo Ticareti** seçeneğini etkinleştirin.
+
+## ⚖️ Yatırım Uyarısı (Risk Bildirimi)
+
+**LÜTFEN DİKKATLİCE OKUYUN:**
+- **Yatırım Tavsiyesi Değildir:** Bu yazılım ve kaynak kodu yalnızca **eğitim ve araştırma amaçlıdır**. Finansal veya yatırım tavsiyesi teşkil etmez.
+- **Yüksek Risk:** Forex ve finansal enstrüman ticareti önemli kayıp riskleri içerir. Geliştirici, bu betiğin kullanımı sonucunda oluşan hiçbir finansal kayıp veya zarardan **sorumlu tutulamaz**.
+- **Garanti Yoktur:** Geçmiş performans, gelecekteki sonuçların garantisi değildir. Bu EA'yı kendi sorumluluğunuzda kullanın ve gerçek fonları kullanmadan önce her zaman bir **demo hesapta** test edin.
+
+---
+**Mustocan Trade tarafından geliştirilmiştir © 2026**
